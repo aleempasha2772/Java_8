@@ -35,7 +35,17 @@ public class InternalIteration {
             }
         };
         values.forEach(c);
-        System.out.println("Using ForEach");
+        System.out.println("Using ForEach && Using Lambda Expression");
         values.forEach(k->System.out.println(k));
+        System.out.println("Using Method Reference");
+        values.forEach(System.out::println);
+        System.out.println("Using Method Reference 2");
+        values.forEach(m ->doubleIt(m));
+
+
+    }
+
+    public static void doubleIt(int i){
+        System.out.println(i*2);
     }
 }
