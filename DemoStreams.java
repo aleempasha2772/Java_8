@@ -8,6 +8,7 @@ public class DemoStreams {
         List<Integer> myList1 = Arrays.asList(1,2,3,4,5,6,7,8,9);
         List<Integer> myList2 = Arrays.asList(1,2,3,4,5,6);
         List<Integer> myList3 = Arrays.asList(15,2,30,4,5,65);
+        List<Integer> myList4 = Arrays.asList(15,2,30,4,5,65);
 
         myList
                 .stream()
@@ -28,6 +29,12 @@ public class DemoStreams {
         System.out.println(myList3.stream()
                 .filter(i->i%5 == 0)
                 .reduce(0,(c,e)->c+e)
+        );
+        System.out.println(myList4.stream()
+                .filter(i->i%5 == 0)
+                .map(i->i*2)
+                .findFirst()
+                .orElse(0)
         );
     }
 }
