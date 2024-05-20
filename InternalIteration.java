@@ -19,6 +19,7 @@ public class InternalIteration {
         while(i.hasNext()){
             System.out.println(i.next() );
         }
+
         System.out.println("Using normal looping");
         for(int j:values){
             System.out.println(j);
