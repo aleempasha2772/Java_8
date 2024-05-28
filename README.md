@@ -20,11 +20,13 @@
 4. **Find the frequency of each element in an array or a list**
 
     Write a Java 8 program to find the frequency of each element in an array or a list using streams and collectors.
-
+   
+   **_Solution_**: wordFrequency
 5. **Sort a given list of decimals in reverse order**
 
     Write a Java 8 program to sort a given list of decimal numbers in reverse order.
 
+   **_Solution_**:reverseSortedList
 6. **Join a list of strings with '[' as prefix, ']' as suffix, and ',' as delimiter**
 
     Given a list of strings, write a Java 8 program to join the strings with '[' as a prefix, ']' as a suffix, and ',' as a delimiter.
