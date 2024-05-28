@@ -10,11 +10,10 @@ public class NumberSum {
         List< Integer > numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 
         int even = numbers.stream()
-                .filter(i -> i%2==0)
+                .filter(i->i%2==0)
                 .mapToInt(Integer::intValue)
                 .sum();
-
-        System.out.println("Even sum "+even);
+        System.out.println("even sum:"+even);
 
         int odd = numbers.stream()
                 .filter(i -> i%2!=0)
