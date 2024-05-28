@@ -15,6 +15,8 @@
 
     Write a Java 8 program to find the frequency of each character in a given string using the stream API and collectors.
 
+   **_Solution_**: charecterFrequency
+
 4. **Find the frequency of each element in an array or a list**
 
     Write a Java 8 program to find the frequency of each element in an array or a list using streams and collectors.
