@@ -46,6 +46,7 @@
 
     Write a Java 8 program to merge two unsorted arrays into a single sorted array using the stream API.
 
+   **_Solution_**: mergeUnsortedArrayIntoSorted
 10. **Merge two unsorted arrays into a single sorted array without duplicates**
 
     Write a Java 8 program to merge two unsorted arrays into a single sorted array without duplicates.
