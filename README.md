@@ -50,6 +50,8 @@
 10. **Merge two unsorted arrays into a single sorted array without duplicates**
 
     Write a Java 8 program to merge two unsorted arrays into a single sorted array without duplicates.
+
+    **_Solution_**: mergeUnsortedArrayIntoSortedDistinct
 11. **Get the three maximum and three minimum numbers from a given list of integers**
 
     Write a Java 8 program to get the three maximum and three minimum numbers from a given list of integers.
