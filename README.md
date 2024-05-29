@@ -31,7 +31,7 @@
 
     Given a list of strings, write a Java 8 program to join the strings with '[' as a prefix, ']' as a suffix, and ',' as a delimiter.
 
-    **_Solution_**:JoinStrings
+    **_Solution_**: JoinStrings
 7. **Print the numbers from a given list of integers that are multiples of 5**
 
     Write a Java 8 program to print the numbers from a given list of integers that are multiples of 5.
@@ -41,6 +41,7 @@
 
     Given a list of integers, write a Java 8 program to find the maximum and minimum numbers in the list.
 
+   **_Solution_**: getMinMax
 9. **Merge two unsorted arrays into a single sorted array using Java 8 streams**
 
     Write a Java 8 program to merge two unsorted arrays into a single sorted array using the stream API.
