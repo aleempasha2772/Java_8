@@ -30,7 +30,7 @@
 6. **Join a list of strings with '[' as prefix, ']' as suffix, and ',' as delimiter**
 
     Given a list of strings, write a Java 8 program to join the strings with '[' as a prefix, ']' as a suffix, and ',' as a delimiter.
-
+   **_Solution_**:JoinStrings
 7. **Print the numbers from a given list of integers that are multiples of 5**
 
     Write a Java 8 program to print the numbers from a given list of integers that are multiples of 5.

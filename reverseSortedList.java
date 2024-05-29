@@ -10,7 +10,5 @@ public class reverseSortedList {
         System.out.println(numbers.stream()
                 .sorted(Comparator.reverseOrder())
                 .collect(Collectors.toList()));
-        //System.out.println("Reverse Order: "+numbers);
-
     }
 }
