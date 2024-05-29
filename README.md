@@ -56,6 +56,7 @@
 
     Write a Java 8 program to get the three maximum and three minimum numbers from a given list of integers.
 
+    **_Solution_**: Get the three maximum and three minimum numbers from a given list of integers
 12. **Check if two strings are anagrams or not using Java 8 streams**
 
     Write a Java 8 program to check if two strings are anagrams or not using the stream API and lambda expressions.
