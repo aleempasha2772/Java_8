@@ -25,7 +25,7 @@ public class TwoSum {
 
 
     /*
-    HashMap Approch
+    HashMap Approach
      */
     public static int[] twoSum2(int[] numbers, int target){
         Map<Integer,Integer> mpp = new HashMap<>();
