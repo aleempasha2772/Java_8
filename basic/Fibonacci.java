@@ -16,6 +16,7 @@ public class Fibonacci {
             first = second;
             second = next;
         }
+        System.out.println(second);
         return nums;
     }
     public static void main(String args[]){
