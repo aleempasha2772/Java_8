@@ -29,6 +29,14 @@ public class BinaryTreeMaxDepth {
         }
     }
 
+    public static int DepthMax(TreeNode root){
+        if(root == null){
+            return 0;
+        }
+        return 1 + Math.max(DepthMax(root.left),DepthMax(root.right));
+    }
+
+
     public static void main(String args[]){
         TreeNode root = new TreeNode(1);
         root.left = new TreeNode(2);
@@ -37,5 +45,6 @@ public class BinaryTreeMaxDepth {
         root.left.right = new TreeNode(5);
 
         System.out.println("Maximum depth of binary tree is: " + maxDepth(root));
+        System.out.println("Maximum depth of binary tree is: " + DepthMax(root));
     }
 }

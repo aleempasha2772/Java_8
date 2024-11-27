@@ -21,7 +21,7 @@ public class DuplicateNumbers {
 
 
     public static void main(String args[]){
-        int[] numbers = {1, 2,3, 3, 4, 5,5,8,9,9};
+        int[] numbers = {9,4,1, 2,3, 3, 4, 5,5,8,9,9,1,9};
         ArrayList<Integer> nums = new ArrayList<>();
 
         for (int i=0;i<numbers.length;i++){
